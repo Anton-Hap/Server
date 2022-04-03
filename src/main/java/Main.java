@@ -18,7 +18,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             try {
-                server = new ServerSocket(8081);
+                server = new ServerSocket(8080);
                 System.out.println("Server was created");
 
                 waitNewClient();
